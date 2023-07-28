@@ -1,0 +1,21 @@
+Tabel Video
++ video_id
+- link_thumbnail
+- link_video
+- title
+- upload_date
+
+Tabel Product
++ product_id
+- link_product
+- title
+- price
+- link_imageProduct
+- video_id
+
+Tabel Comment 
++ comment_id
+- username
+- comment
+- timestamp
+- video_id
