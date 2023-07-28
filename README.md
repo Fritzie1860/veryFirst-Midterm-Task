@@ -36,12 +36,12 @@ The database structure for this project is designed to store information about v
 
 The API structure follows the RESTful API design principles. The API endpoints and their corresponding functionalities are as follows:
 
-/api/auth/register - Register a new user.
-/api/auth/login - Login an existing user and generate a JWT token for authentication.
-/api/video - Retrieve a list of videos with thumbnails from YouTube.
-/api/comment/:video_id - Retrieve a list of comments for a specific video.
-/api/comment/submit - Submit a comment for a video.
-/api/product/:video_id - Retrieve a list of products related to a video.
+- /api/auth/register - Register a new user.
+- /api/auth/login - Login an existing user and generate a JWT token for authentication.
+- /api/video - Retrieve a list of videos with thumbnails from YouTube.
+- /api/comment/:video_id - Retrieve a list of comments for a specific video.
+- /api/comment/submit - Submit a comment for a video.
+- /api/product/:video_id - Retrieve a list of products related to a video.
 
 
 **API Requests and Responses**
